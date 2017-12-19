@@ -15,6 +15,15 @@
 <script>
   export default {
     name: 'breadcrumb',
-    props: ['breadcrumbs']
+    props: {
+      breadcrumbs: {
+        title: {
+          default: ''
+        },
+        path: {
+          default: ''
+        }
+      }
+    }
   }
 </script>
