@@ -3,6 +3,7 @@ const path = require('path')
 module.exports = {
   publicPath: './',
   filenameHashing: false,
+  outputDir: 'docs',
   configureWebpack: {
     resolve: {
       alias: {
