@@ -10,6 +10,7 @@
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.18",
     "core-js": "^2.6.5",
+    "jquery": "^3.4.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1"
   },
@@ -36,7 +37,8 @@
       "Vue": false
     },
     "rules": {
-      "import/first": "off"
+      "import/first": "off",
+      "no-trailing-spaces": [2, { "skipBlankLines": true }]
     },
     "parserOptions": {
       "parser": "babel-eslint"

@@ -7,8 +7,6 @@ import Page1of2 from './views/Page1-2'
 import Page2 from './views/Page2'
 
 export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
   routes: [
     {
       path: '/',
