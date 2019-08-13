@@ -32,7 +32,8 @@
 </template>
 
 <script>
-import breadcrumb from '../components/breadcrumb'
+import Vue from 'vue'
+import breadcrumb from '@/components/breadcrumb'
 
 Vue.component('breadcrumb', breadcrumb)
 

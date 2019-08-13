@@ -1,10 +1,11 @@
+import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
 
-import Home from './views/Home.vue'
-import Page1 from './views/Page1'
-import Page1of2 from './views/Page1-2'
-import Page2 from './views/Page2'
+import Home from '@/views/Home.vue'
+import Page1 from '@/views/Page1'
+import Page1of2 from '@/views/Page1-2'
+import Page2 from '@/views/Page2'
 
 export default new Router({
   routes: [
