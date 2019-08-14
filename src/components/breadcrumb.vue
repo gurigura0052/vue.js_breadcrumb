@@ -8,7 +8,6 @@
         v-for="(breadcrumb, i) in breadcrumbs"
         :key="i"
         :class="{ 'breadcrumb-item': breadcrumb.path, 'breadcrumb-item active': !breadcrumb.path }"
-        :aria-current="{ page: !breadcrumb.path }"
       >
         <router-link v-if="breadcrumb.path" :to="breadcrumb.path">{{ breadcrumb.title }}</router-link>
         <span v-else>{{ breadcrumb.title }}</span>
