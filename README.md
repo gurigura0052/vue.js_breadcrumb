@@ -1,5 +1,5 @@
 # myVue.jsBreadcrumb
-https://gurigura0052.github.io/myVue.jsBreadcrumb/
+https://gurigura0052.github.io/myVue.jsBreadcrumb/#/
 
 ## breadcrumbコンポーネント
 src/views/Page1-2.vue
