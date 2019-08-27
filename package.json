@@ -15,16 +15,16 @@
     "vue-router": "^3.1.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.10.0",
-    "@vue/cli-plugin-eslint": "^3.10.0",
-    "@vue/cli-service": "^3.10.0",
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
     "@vue/eslint-config-standard": "^4.0.0",
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.2.2",
     "eslint-plugin-vue": "^5.2.3",
     "npm-check-updates": "^3.1.21",
     "vue-template-compiler": "^2.6.10",
-    "eslint-loader": "^2.1.2"
+    "eslint-loader": "^3.0.0"
   },
   "eslintConfig": {
     "root": true,
